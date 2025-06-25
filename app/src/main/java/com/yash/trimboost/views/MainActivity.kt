@@ -1,12 +1,12 @@
-package com.draco.mfstrim.views
+package com.yash.trimboost.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.FragmentContainerView
-import com.draco.mfstrim.R
-import com.draco.mfstrim.fragments.MainPreferenceFragment
-import com.draco.mfstrim.utils.PermissionUtils
+import com.yash.trimboost.R
+import com.yash.trimboost.fragments.MainPreferenceFragment
+import com.yash.trimboost.utils.PermissionUtils
 
 class MainActivity : AppCompatActivity() {
     private lateinit var preferences: FragmentContainerView

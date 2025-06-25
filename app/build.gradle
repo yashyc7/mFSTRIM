@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.draco.mfstrim"
+        applicationId "com.yash.trimboost"
         minSdk 23
         targetSdk 31
         versionCode 2

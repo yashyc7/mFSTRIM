@@ -1,4 +1,4 @@
-package com.draco.mfstrim
+package com.yash.trimboost
 
 import org.junit.Test
 

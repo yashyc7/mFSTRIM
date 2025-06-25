@@ -1,4 +1,4 @@
-package com.draco.mfstrim.utils
+package com.yash.trimboost.utils
 
 import android.content.Context
 import android.content.pm.PackageManager

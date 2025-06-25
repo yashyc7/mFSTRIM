@@ -1,12 +1,12 @@
-package com.draco.mfstrim.fragments
+package com.yash.trimboost.fragments
 
 import android.content.*
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import androidx.preference.*
-import com.draco.mfstrim.R
-import com.draco.mfstrim.repositories.constants.SettingsConstants
+import com.yash.trimboost.R
+import com.yash.trimboost.repositories.constants.SettingsConstants
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.material.snackbar.Snackbar
 
@@ -26,7 +26,8 @@ class MainPreferenceFragment : PreferenceFragmentCompat(), SharedPreferences.OnS
         super.onPause()
         preferenceManager.sharedPreferences.unregisterOnSharedPreferenceChangeListener(this)
     }
-
+    @Deprecated("Deprecated in Java")
+    @Suppress("DEPRECATION")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
